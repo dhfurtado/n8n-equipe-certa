@@ -1,0 +1,42 @@
+body {
+  background-color: #121212;
+  font-family: 'Courier New', monospace;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+.box {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 250px;
+  text-align: center;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ddd;
+}

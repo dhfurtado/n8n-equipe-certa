@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload CSV e Formulário</title>
+  <link rel="stylesheet" href="./stylesheets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h2>Upload CSV</h2>
+      <form id="formCandidatos">
+        <input type="file" id="fileCandidatos" accept=".csv" required />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div class="box">
+      <h2>Requisitos da vaga</h2>
+      <form id="formRequisitos">
+        <input type="file" id="fileRequisitos" accept=".xlsx" required />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
